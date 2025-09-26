@@ -4,6 +4,12 @@ FILE="./ftip.py"
 FIL="ftip"
 
 cp "$FILE" ~/BH_Sync_New/Maintenance/bin
+chmod 755 ~/BH_Sync_New/Maintenance/bin/"$FILE"
 cp "$FILE" ~/BH_Sync_New/Maintenance/bin/"$FIL"
-cp "$FILE" ~/bin
+chmod 755 ~/BH_Sync_New/Maintenance/bin/"$FIL"
+
+#cp "$FILE" ~/bin
+#chmod 755 ~/bin/"$FILE"
+
 cp "$FILE" ~/bin/"$FIL"
+chmod  755 ~/bin/"$FIL"
