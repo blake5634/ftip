@@ -1,0 +1,9 @@
+#!/bin/bash
+
+FILE="./ftip.py"
+FIL="ftip"
+
+cp "$FILE" ~/BH_Sync_New/Maintenance/bin
+cp "$FILE" ~/BH_Sync_New/Maintenance/bin/"$FIL"
+cp "$FILE" ~/bin
+cp "$FILE" ~/bin/"$FIL"
