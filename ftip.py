@@ -4,6 +4,7 @@ import sys
 import pyperclip
 import subprocess
 
+textDir = '/home/blake/BH_Sync_New/Maintenance/ftip/'
 
 def process(n,t,v):
     print('Im working on ', n)
@@ -15,7 +16,7 @@ def process(n,t,v):
         pyperclip.copy(v[n])
         quit
     elif t[n] == 'txtfile':
-        ifn = v[n]
+        ifn = textDir + v[n]
         ifp = open(ifn,'r')
         res = ''
         for line in ifp:

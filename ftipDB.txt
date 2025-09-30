@@ -1,6 +1,7 @@
 Appointment Cal ; link ; https://calendar.app.google/7QVrspABUD65U7SG6
 RA Req  ; txtfile ; IWantAnRA.txt
 TA Req  ; txtfile ; TA_Req.txt
+LOR Req ; txtfile ; IWantAGradSchoolRec.txt
 PleaseSend3Times; txt ; "Please send me three time slots that would work for you, I'm sure one will work"
 Name and Addr;  txt ; "Blake Hannaford\n5634 12th Ave NE\nSeattle, WA 98105-2604"
 Name; txt ; "Blake Hannaford"
