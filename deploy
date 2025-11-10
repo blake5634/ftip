@@ -1,15 +1,20 @@
 #!/bin/bash
 
-FILE="./ftip.py"
+FILE="ftip.py"
+DIR="$HOME/Personal_BH/Maintenance"
 FIL="ftip"
 
-cp "$FILE" ~/BH_Sync_New/Maintenance/bin
-chmod 755 ~/BH_Sync_New/Maintenance/bin/"$FILE"
-cp "$FILE" ~/BH_Sync_New/Maintenance/bin/"$FIL"
-chmod 755 ~/BH_Sync_New/Maintenance/bin/"$FIL"
 
-#cp "$FILE" ~/bin
-#chmod 755 ~/bin/"$FILE"
+#
+#
 
-cp "$FILE" ~/bin/"$FIL"
-chmod  755 ~/bin/"$FIL"
+cp $FILE   "$DIR/bin"
+chmod 755  "$DIR/bin/$FILE"
+cp "$FILE" "$DIR/bin/$FIL"
+chmod 755  "$DIR/bin/$FIL"
+
+cp "$FILE"    ~/bin
+chmod 755     ~/bin/"$FILE"
+
+cp ./"$FILE" "$HOME/bin/$FIL"
+chmod  755   "$HOME/bin/$FIL"

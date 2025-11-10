@@ -4,7 +4,7 @@ import sys
 import pyperclip
 import subprocess
 
-textDir = '/home/blake/BH_Sync_New/Maintenance/ftip/'
+textDir = '/home/blake/Personal_BH/Maintenance/ftip/'
 
 def process(n,t,v):
     print('Im working on ', n)
@@ -28,7 +28,7 @@ def process(n,t,v):
 
 
 
-fn = '/home/blake/BH_Sync_New/Maintenance/ftip/ftipDB.txt'
+fn = '/home/blake/Personal_BH/Maintenance/ftip/ftipDB.txt'
 fp = open(fn, 'r')
 
 #
